@@ -1,0 +1,182 @@
+*,::before,::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+strong {
+    font-weight: 700;
+  }
+/* css header */
+.header{
+    height: 100vh;
+    width: 100%;
+}
+.header-nav{
+    display: flex;
+    padding-top: 4px;
+    background-image: url('plantes / bg.jpg');
+    background-size: cover;
+}
+.header-nav img{
+    height: 120px;
+    width: 120px;
+    margin: 8px 18px;
+}
+.header-nav nav{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-atems {
+    margin-right: 50px;
+}
+.nav-atems a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.nav-atems a.active{
+    color: #ADD981;
+    border-bottom: 1px solid white;
+}
+.nav-atems a:hover{
+    color: #ADD981;
+    border-bottom: 1px solid white;
+}
+.paragraphe{
+    margin-left: 90px;
+    width: 700px;
+}
+.paragraphe div{
+    font-weight: 900;
+    font-size: 90px;
+    font-family: serif;
+    color: white;
+    line-height: 1;
+    margin: 120px 0;
+}
+/* contenu de la page */
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    text-align: center;
+}
+.service-item{
+    margin: 0 60px;
+    width: 170px;
+    font-weight: 600;
+}
+.service-item .service-details{
+   margin: 12px 0;
+}
+.ventes{
+    margin: 50px 90px;
+}
+ .ventes h1.title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family:'lato' serif;
+    border-bottom: 2px solid #ADD981;
+}
+.section-atems{
+    margin-top: 15px;
+    width: 400px;
+}
+.section-atems img{
+    width: 100%;
+}
+.special{
+    display: flex;
+}
+.section-atems-content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px;
+}
+.section-atems-content span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.section-atems-content span.prix{
+    color: #ADD981;
+    font-size: 1rem;
+    padding-top: 5px;
+}
+.section-atems-content a{
+     margin-left: 140px;
+     text-decoration: none;
+     padding: 8px;
+     border: 1px solid #ADD981;
+     border-radius: 15px;
+     background: #ADD981;
+     color: #fff;
+}
+.plantes-vente{
+    margin-left: 90px;
+}
+.plantes-vente-content{
+    margin-top: 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+.contenu{
+    width: 380px;
+}
+.contenu img{
+    width: 100%;
+}
+.contenu img:first-child{
+    height: 600px;
+    object-fit: cover;
+}
+.contenu-span{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 15px;
+}
+.contenu span{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.contenu span.prix{
+    color: #ADD981;
+    font-size: 1rem;
+    padding-top: 5px;
+}
+.contenu a{
+    margin-left: 140px;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #ADD981;
+    border-radius: 15px;
+    background: #ADD981;
+    color: #fff;
+    text-align: center;
+}
+.plantes-vente h1.title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family:'lato' serif;
+    border-bottom: 2px solid #ADD981;
+margin-right: 40px;
+}
+footer{
+    height: 40vh;
+    background: #ADD981;
+    margin-bottom: 15px;
+}
+footer img{
+    width: 120px;
+    height: 120px;
+}
+.pied-page{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
